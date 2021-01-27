@@ -140,8 +140,8 @@ export default function PrimarySearchAppBar() {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}><Link className="linksRight" to="/SignIn">SignIn</Link></MenuItem>
-      <MenuItem onClick={handleMenuClose}><Link className="linksRight" to="/Dashboard">Dashboard</Link></MenuItem>
+      <MenuItem onClick={handleMenuClose}><Link className="linksMore" to="/SignIn">SignIn</Link></MenuItem>
+      <MenuItem onClick={handleMenuClose}><Link className="linksMore" to="/Dashboard">Dashboard</Link></MenuItem>
     </Menu>
   );
 
