@@ -1,0 +1,35 @@
+.row p a {
+    text-decoration: none;
+    color: gray;
+    line-height: normal;
+}
+
+.row p a:hover {
+    color: white;
+    font-size: normal;
+    letter-spacing: none;
+    transition: none;
+}
+
+.social a {
+    
+    font-weight: bolder; 
+    text-decoration: none;
+    color: black;
+    transform: scale(10);
+    transition: all 0.3s ease-in-out 0.2s;
+    line-height: 55px;
+   
+}
+
+.social a:hover {    
+    color: red;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+    transition: all 0.1s ease-in-out 0.1s;
+}
+
+
+
+
+  
