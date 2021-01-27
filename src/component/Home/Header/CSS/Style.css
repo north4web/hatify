@@ -1,13 +1,18 @@
 .links {
     color: white;
     text-decoration: none;
-    font-size: small; 
 }
 
-.linksRight{
+.linksLeft{
     color: black;
     text-decoration: none;
-    font-size: small;
+    font-size: 16px;
+}
+
+.linksMore{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .links:hover {

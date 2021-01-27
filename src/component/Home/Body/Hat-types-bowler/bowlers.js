@@ -11,9 +11,9 @@ import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import { Link } from "react-router-dom";
-// import clsx from 'clsx';
+import clsx from 'clsx';
 // import ShareIcon from '@material-ui/icons/Share';
-// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 // import MoreVertIcon from '@material-ui/icons/MoreVert';
 // import Avatar from '@material-ui/core/Avatar';
 
@@ -70,7 +70,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Stetson"
-                subheader="Bogart Open Crown Woolfelt Beige Bowler"
+                subheader="Woolfelt Bowler"
               />
               <CardMedia
                 className={classes.media}
@@ -92,7 +92,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -101,13 +101,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
 
                   <Typography paragraph>
-                    Description of the hat.
+                  Bogart Open Crown Woolfelt Beige Bowler
           </Typography>
                 </CardContent>
               </Collapse>
@@ -127,7 +127,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Mayser"
-                subheader="Connor Wolga Stone Bowler"
+                subheader="Connor Bowler"
               />
               <CardMedia
                 className={classes.media}
@@ -149,7 +149,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -158,13 +158,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
                     paragraph>
-                    Description of the hat.
+                    Connor Wolga Stone Bowler
           </Typography>
                 </CardContent>
               </Collapse>
@@ -184,7 +184,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Stetson"
-                subheader="Sonstige Bogart Open Crown Woolfelt Black Bowler"
+                subheader="Woolfelt Bowler"
               />
               <CardMedia
                 className={classes.media}
@@ -206,7 +206,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -215,12 +215,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
-                    paragraph>Description of the hat.
+                    paragraph>
+                      Sonstige Bogart Open Crown Woolfelt Black Bowler
           </Typography>
                 </CardContent>
               </Collapse>
@@ -247,7 +248,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Mayser"
-                subheader="Connor Wolga Bordeaux Bowler"
+                subheader="Connor Bowler"
               />
               <CardMedia
                 className={classes.media}
@@ -269,7 +270,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -278,13 +279,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
 
                   <Typography paragraph>
-                    Description of the hat.
+                  Connor Wolga Bordeaux Bowler
           </Typography>
                 </CardContent>
               </Collapse>
@@ -304,7 +305,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Mayser"
-                subheader="Connor Wolga Cognac Brown Bowler"
+                subheader="Connor Bowler"
               />
               <CardMedia
                 className={classes.media}
@@ -326,7 +327,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -335,13 +336,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
                     paragraph>
-                    Description of the hat.
+                    Connor Wolga Cognac Brown Bowler
           </Typography>
                 </CardContent>
               </Collapse>
@@ -361,7 +362,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Jaxon & James"
-                subheader="English Black Bowler"
+                subheader="English Bowler"
               />
               <CardMedia
                 className={classes.media}
@@ -383,7 +384,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -392,12 +393,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
-                    paragraph>Description of the hat.
+                    paragraph>
+                      English Black Bowler
           </Typography>
                 </CardContent>
               </Collapse>

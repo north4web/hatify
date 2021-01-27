@@ -124,7 +124,7 @@ export default function SignInSide() {
                 </Grid>
               </Grid>
               <Box mt={5}>
-                <Copyright />
+                {/* <Copyright /> */}
               </Box>
             </form>
           </div>

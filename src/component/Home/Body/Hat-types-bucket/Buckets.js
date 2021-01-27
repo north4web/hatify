@@ -20,9 +20,9 @@ import bu7 from '../../../images/Buckets/bu7.jpg'
 import bu8 from '../../../images/Buckets/bu8.jpg'
 import bu9 from '../../../images/Buckets/bu9.jpg'
 import { Link } from "react-router-dom";
-// import clsx from 'clsx';
+import clsx from 'clsx';
 // import ShareIcon from '@material-ui/icons/Share';
-// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 // import MoreVertIcon from '@material-ui/icons/MoreVert';
 // import Avatar from '@material-ui/core/Avatar';
 
@@ -79,7 +79,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Herschel"
-                subheader="Cooperman Woodland Camo Bucket"
+                subheader="Camo Bucket"
               />
               <CardMedia
                 className={classes.media}
@@ -101,22 +101,23 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton> */}
+                <IconButton
+                  className={clsx(classes.expand, {
+                    [classes.expandOpen]: expanded,
+                  })}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label="show more"
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
 
-                  <Typography paragraph>
-                    Description of the hat.
+                  <Typography
+                    paragraph>
+                    Cooperman Woodland Camo Bucket
           </Typography>
                 </CardContent>
               </Collapse>
@@ -136,7 +137,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="New Era"
-                subheader="GORE-TEX Black/White Bucket"
+                subheader="GORE-TEX Bucket"
               />
               <CardMedia
 
@@ -159,22 +160,22 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton> */}
+                <IconButton
+                  className={clsx(classes.expand, {
+                    [classes.expandOpen]: expanded,
+                  })}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label="show more"
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
                     paragraph>
-                    Description of the hat.
+                    GORE-TEX Black/White Bucket
           </Typography>
                 </CardContent>
               </Collapse>
@@ -194,7 +195,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Ellesse"
-                subheader="Levan Navy Blue Bucket"
+                subheader="Levan Bucket"
               />
               <CardMedia
                 className={classes.media}
@@ -216,21 +217,22 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton> */}
+                <IconButton
+                  className={clsx(classes.expand, {
+                    [classes.expandOpen]: expanded,
+                  })}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label="show more"
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
-                    paragraph>Description of the hat.
+                    paragraph>
+                    Levan Navy Blue Bucket
           </Typography>
                 </CardContent>
               </Collapse>
@@ -259,7 +261,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Brixton"
-                subheader="Kids Lil Hardy Red Navy Bucket"
+                subheader="Kids Bucket"
               />
               <CardMedia
 
@@ -282,22 +284,23 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton> */}
+                <IconButton
+                  className={clsx(classes.expand, {
+                    [classes.expandOpen]: expanded,
+                  })}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label="show more"
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
 
-                  <Typography paragraph>
-                    Description of the hat.
+                  <Typography
+                    paragraph>
+                    Kids Lil Hardy Red Navy Bucket
           </Typography>
                 </CardContent>
               </Collapse>
@@ -317,7 +320,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Ellesse"
-                subheader="Lorenzo White Bucket"
+                subheader="Lorenzo Bucket"
               />
               <CardMedia
 
@@ -340,22 +343,22 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton> */}
+                <IconButton
+                  className={clsx(classes.expand, {
+                    [classes.expandOpen]: expanded,
+                  })}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label="show more"
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
                     paragraph>
-                    Description of the hat.
+                    Lorenzo White Bucket
           </Typography>
                 </CardContent>
               </Collapse>
@@ -375,7 +378,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="New Era"
-                subheader="None Outdoors Bucket Explorer Olive Bucket"
+                subheader="Outdoors Bucket"
               />
               <CardMedia
 
@@ -398,21 +401,22 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton> */}
+                <IconButton
+                  className={clsx(classes.expand, {
+                    [classes.expandOpen]: expanded,
+                  })}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label="show more"
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
-                    paragraph>Description of the hat.
+                    paragraph>
+                    None Outdoors Bucket Explorer Olive Bucket
           </Typography>
                 </CardContent>
               </Collapse>
@@ -440,7 +444,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Converse"
-                subheader="Reversible Bucket Patch Plaid Rose Maroon Bucket"
+                subheader="Patch Plaid Bucket"
               />
               <CardMedia
 
@@ -463,22 +467,23 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton> */}
+                <IconButton
+                  className={clsx(classes.expand, {
+                    [classes.expandOpen]: expanded,
+                  })}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label="show more"
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
 
-                  <Typography paragraph>
-                    Description of the hat.
+                  <Typography
+                    paragraph>
+                    Reversible Bucket Patch Plaid Rose Maroon Bucket
           </Typography>
                 </CardContent>
               </Collapse>
@@ -498,7 +503,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Jack Wolfskin"
-                subheader="Supplex Sun Hat Siltstone Bucket"
+                subheader="Supplex Bucket"
               />
               <CardMedia
 
@@ -521,22 +526,22 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton> */}
+                <IconButton
+                  className={clsx(classes.expand, {
+                    [classes.expandOpen]: expanded,
+                  })}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label="show more"
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
                     paragraph>
-                    Description of the hat.
+                    Supplex Sun Hat Siltstone Bucket
           </Typography>
                 </CardContent>
               </Collapse>
@@ -556,7 +561,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Fair"
-                subheader="White Logo Black Bucket"
+                subheader="White Bucket"
               />
               <CardMedia
 
@@ -579,21 +584,22 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton> */}
+                <IconButton
+                  className={clsx(classes.expand, {
+                    [classes.expandOpen]: expanded,
+                  })}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label="show more"
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
-                    paragraph>Description of the hat.
+                    paragraph>
+                    White Logo Black Bucket
           </Typography>
                 </CardContent>
               </Collapse>

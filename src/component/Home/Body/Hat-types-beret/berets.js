@@ -21,9 +21,9 @@ import b7 from '../../../images/berets/b7.jpg'
 import b8 from '../../../images/berets/b8.jpg'
 import b9 from '../../../images/berets/b9.jpg'
 import { Link } from "react-router-dom";
-// import clsx from 'clsx';
+import clsx from 'clsx';
 // import ShareIcon from '@material-ui/icons/Share';
-// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 // import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 
@@ -81,7 +81,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Seeberger"
-                subheader="Viscose Mix Black Beret"
+                subheader="Viscose Beret"
               />
               <CardMedia
                 className={classes.media}
@@ -108,7 +108,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -117,13 +117,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
 
                   <Typography paragraph>
-                    Description of the hat.
+                  Viscose Mix Black Beret
           </Typography>
                 </CardContent>
               </Collapse>
@@ -144,7 +144,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Seeberger"
-                subheader="Wool Blend Black Beret"
+                subheader="Wool Beret"
               />
               <CardMedia
                 className={classes.media}
@@ -166,7 +166,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -175,13 +175,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
                     paragraph>
-                    Description of the hat.
+                    Wool Blend Black Beret
           </Typography>
                 </CardContent>
               </Collapse>
@@ -202,7 +202,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Kangol"
-                subheader="Wool Jax Dk Lichen Green Beret"
+                subheader="Wool Beret"
               />
               <CardMedia
                 className={classes.media}
@@ -224,7 +224,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -233,12 +233,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
-                    paragraph>Description of the hat.
+                    paragraph>
+                      Wool Jax Dk Lichen Green Beret
           </Typography>
                 </CardContent>
               </Collapse>
@@ -266,7 +267,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Brixton"
-                subheader="Audrey Amber Beret"
+                subheader="Audrey Beret"
               />
               <CardMedia
                 className={classes.media}
@@ -288,7 +289,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -297,13 +298,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
 
                   <Typography paragraph>
-                    Description of the hat.
+                  Audrey Amber Beret
           </Typography>
                 </CardContent>
               </Collapse>
@@ -323,7 +324,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Barts"
-                subheader="Leconte Heather Grey Beret"
+                subheader="Leconte Beret"
               />
 
 
@@ -348,7 +349,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -357,13 +358,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
                     paragraph>
-                    Description of the hat.
+                    Leconte Heather Grey Beret
           </Typography>
                 </CardContent>
               </Collapse>
@@ -383,7 +384,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Seeberger"
-                subheader="Viscose Mix Nutria Beret"
+                subheader="Viscose Beret"
               />
 
 
@@ -408,7 +409,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -417,12 +418,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
-                    paragraph>Description of the hat.
+                    paragraph>
+                      Viscose Mix Nutria Beret
           </Typography>
                 </CardContent>
               </Collapse>
@@ -449,7 +451,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Seeberger"
-                subheader="Wool Blend Heather Grey Beret"
+                subheader="Wool Beret"
               />
               <CardMedia
 
@@ -472,7 +474,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -481,13 +483,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
 
                   <Typography paragraph>
-                    Description of the hat.
+                  Wool Blend Heather Grey Beret
           </Typography>
                 </CardContent>
               </Collapse>
@@ -507,7 +509,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Seeberger"
-                subheader="Wool Blend Marine Blue Beret"
+                subheader="Wool Beret"
               />
 
 
@@ -532,7 +534,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -541,13 +543,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
                     paragraph>
-                    Description of the hat.
+                    Wool Blend Marine Blue Beret
           </Typography>
                 </CardContent>
               </Collapse>
@@ -567,7 +569,7 @@ export default function RecipeReviewCard() {
                 //   </IconButton>
                 // }
                 title="Kangol"
-                subheader="Wool Jax Red Velvet Beret"
+                subheader="Wool Beret"
               />
 
 
@@ -592,7 +594,7 @@ export default function RecipeReviewCard() {
                 {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton> */}
-                {/* <IconButton
+                <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
@@ -601,12 +603,13 @@ export default function RecipeReviewCard() {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton> */}
+        </IconButton>
               </CardActions>
               <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography
-                    paragraph>Description of the hat.
+                    paragraph>
+                      Wool Jax Red Velvet Beret
           </Typography>
                 </CardContent>
               </Collapse>

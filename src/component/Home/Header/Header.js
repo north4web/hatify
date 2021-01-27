@@ -22,9 +22,9 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
-import '../CSS/Style.css';
+import '../Header/CSS/Style.css';
 // import NotificationsIcon from '@material-ui/icons/Notifications';
-// import InputBase from '@material-ui/core/InputBase';
+import InputBase from '@material-ui/core/InputBase';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -79,14 +79,14 @@ const useStyles = makeStyles((theme) => ({
   },
   sectionDesktop: {
     display: 'none',
-    [theme.breakpoints.up('md')]: {
+    [theme.breakpoints.up('sm')]: {
       display: 'flex',
     },
   },
   sectionMobile: {
     display: 'flex',
-    [theme.breakpoints.up('md')]: {
-      display: 'flex',
+    [theme.breakpoints.up('sm')]: {
+      display: 'none',
     },
   },
   list: {
@@ -158,26 +158,50 @@ export default function PrimarySearchAppBar() {
     >
       {/* links under "more" icon */}
       <MenuItem>
+      <IconButton color="inherit">
+              <Badge color="secondary">
+                <Link className="linksMore" to="/Berets">Berets</Link>
+              </Badge>
+            </IconButton>
+            </MenuItem>
+
+            <MenuItem>
+            <IconButton>
+              <Badge color="secondary">
+                <Link className="linksMore" to="/Bowlers">Bowlers</Link>
+              </Badge>
+            </IconButton>
+            </MenuItem>
+
+            <MenuItem>
+            <IconButton>
+              <Badge color="secondary">
+                <Link className="linksMore" to="/Buckets">Buckets</Link>
+              </Badge>
+            </IconButton>
+            </MenuItem>
+
+      {/* <MenuItem>
         <IconButton color="inherit">
           <Badge color="secondary">
-            <Link className="linksRight" to="/">Home</Link>
+            <Link className="linksMore" to="/">Home</Link>
           </Badge>
         </IconButton>
       </MenuItem>
       <MenuItem>
         <IconButton color="inherit">
           <Badge color="secondary">
-            <Link className="linksRight" to="/About">About</Link>
+            <Link className="linksMore" to="/About">About</Link>
           </Badge>
         </IconButton>
       </MenuItem>
       <MenuItem>
         <IconButton color="inherit">
           <Badge color="secondary">
-            <Link className="linksRight" to="/Contact">Contact</Link>
+            <Link className="linksMore" to="/Contact">Contact</Link>
           </Badge>
         </IconButton>
-      </MenuItem>
+      </MenuItem> */}
       {/* <MenuItem>
         <IconButton aria-label="show 4 new mails" color="inherit">
           <Badge badgeContent={4} color="secondary">
@@ -232,7 +256,28 @@ export default function PrimarySearchAppBar() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-
+<MenuItem>
+        <IconButton color="inherit">
+        
+            <Link className="linksLeft" to="/">Home</Link>
+          
+        </IconButton>
+      </MenuItem>
+      <MenuItem>
+        <IconButton color="inherit">
+         
+            <Link className="linksLeft" to="/About">About</Link>
+          
+        </IconButton>
+      </MenuItem>
+      <MenuItem>
+        <IconButton color="inherit">
+          <Badge color="secondary">
+            <Link className="linksLeft" to="/Contact">Contact</Link>
+          </Badge>
+        </IconButton>
+      </MenuItem> 
+      <Divider />
       <List>
         {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
           <ListItem button key={text}>
@@ -283,7 +328,11 @@ export default function PrimarySearchAppBar() {
 
           <div className={classes.grow} />
 
-          <div className={classes.sectionMobile}>
+          
+
+
+          <div className={classes.sectionDesktop}>
+          
             <IconButton color="inherit">
 
               <Badge color="secondary">
@@ -303,11 +352,34 @@ export default function PrimarySearchAppBar() {
                 <Link className="links" to="/Buckets">Buckets</Link>
               </Badge>
             </IconButton>
+
+            <IconButton>
+              <Badge color="secondary">
+                <SearchIcon style={{ color: "white" }} />
+                {/* <InputBase style={{fontSize: "medium", backgroundColor: "white"}}
+          placeholder="Search..."
+          classes={{
+            root: classes.inputRoot,
+            input: classes.inputInput,
+          }}
+          inputProps={{ 'aria-label': 'search' }}
+        /> */}
+              </Badge>
+            </IconButton>
+
+
+            <IconButton
+              edge="end"
+              aria-label="account of current user"
+              aria-controls={menuId}
+              aria-haspopup="true"
+              onClick={handleProfileMenuOpen}
+              color="inherit"
+            >
+              <AccountCircle />
+            </IconButton>
+
           </div>
-
-
-          <div className={classes.sectionDesktop}>
-
 
             {/* <IconButton aria-label="show 4 new mails" color="inherit">
           <Badge badgeContent={4} color="secondary">
@@ -335,32 +407,8 @@ export default function PrimarySearchAppBar() {
         />
       </div> */}
 
-            <IconButton>
-              <Badge color="secondary">
-                <SearchIcon style={{ color: "white" }} />
-                {/* <InputBase style={{fontSize: "medium", backgroundColor: "white"}}
-          placeholder="Search..."
-          classes={{
-            root: classes.inputRoot,
-            input: classes.inputInput,
-          }}
-          inputProps={{ 'aria-label': 'search' }}
-        /> */}
-              </Badge>
-            </IconButton>
-
-
-            <IconButton
-              edge="end"
-              aria-label="account of current user"
-              aria-controls={menuId}
-              aria-haspopup="true"
-              onClick={handleProfileMenuOpen}
-              color="inherit"
-            >
-              <AccountCircle />
-            </IconButton>
-          </div>
+            
+          
 
           <div className={classes.sectionMobile}>
             <IconButton
