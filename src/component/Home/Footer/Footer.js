@@ -8,7 +8,7 @@ function Footer() {
 
     <div>
 
-      <br />
+     
       <Divider style={{ backgroundColor: "black", height: "2px" }}></Divider>
 
 

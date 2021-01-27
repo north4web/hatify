@@ -132,7 +132,7 @@ export default function Dashboard() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar position="absolute" className={clsx(classes.appBar, open && classes.appBarShift)}>
+      <AppBar position="absolute" className={clsx(classes.appBar)}>
         <Toolbar style={{ backgroundColor: "black" }} className={classes.toolbar}>
           <IconButton
             edge="start"
@@ -149,10 +149,13 @@ export default function Dashboard() {
 
 
 
-          <IconButton color="inherit" href="/">
-            <p className="links">Home</p>
+          <IconButton className="links" color="inherit" style={{ fontSize: '15px' }} href="/">
+           Home
           </IconButton>
 
+          {/* <IconButton aria-label=" " color="inherit" >
+            <Link style={{ textDecoration: 'none', color: 'white', fontSize: '15px' }} to='/'>Home</Link>
+          </IconButton> */}
 
           <IconButton color="inherit">
             <Badge badgeContent={4} color="secondary">
