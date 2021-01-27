@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../CSS/Style.css';
 import Bucket5Gallery from './Gallery/Bucket5-gallery'
 import { makeStyles } from '@material-ui/core/styles';
 // import Card from '@material-ui/core/Card';

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../CSS/Style.css';
 import Beret9Gallery from './Gallery/Beret9-gallery'
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';

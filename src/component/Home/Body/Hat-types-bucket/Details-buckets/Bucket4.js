@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../CSS/Style.css';
 import Bucket4Gallery from './Gallery/Bucket4-gallery'
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';

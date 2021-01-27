@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../CSS/Style.css';
 import Bucket8Gallery from './Gallery/Bucket8-gallery'
 import { makeStyles } from '@material-ui/core/styles';
 // import Card from '@material-ui/core/Card';
