@@ -12,10 +12,8 @@ import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import { Link } from "react-router-dom";
 import clsx from 'clsx';
-// import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-// import MoreVertIcon from '@material-ui/icons/MoreVert';
-// import Avatar from '@material-ui/core/Avatar';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -59,16 +57,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Stetson"
                 subheader="Woolfelt Bowler"
               />
@@ -89,9 +78,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -116,16 +103,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Mayser"
                 subheader="Connor Bowler"
               />
@@ -146,9 +124,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -173,16 +149,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Stetson"
                 subheader="Woolfelt Bowler"
               />
@@ -203,9 +170,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -237,16 +202,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Mayser"
                 subheader="Connor Bowler"
               />
@@ -267,9 +223,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -294,16 +248,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Mayser"
                 subheader="Connor Bowler"
               />
@@ -324,9 +269,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -351,16 +294,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Jaxon & James"
                 subheader="English Bowler"
               />
@@ -381,9 +315,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,

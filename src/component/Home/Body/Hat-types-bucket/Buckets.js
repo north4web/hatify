@@ -10,21 +10,10 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-// import bu1 from '../../../images/Buckets/bu1.jpg'
-// import bu2 from '../../../images/Buckets/bu2.jpg'
-// import bu3 from '../../../images/Buckets/bu3.jpg'
-// import bu4 from '../../../images/Buckets/bu4.jpg'
-// import bu5 from '../../../images/Buckets/bu5.jpg'
-// import bu6 from '../../../images/Buckets/bu6.jpg'
-// import bu7 from '../../../images/Buckets/bu7.jpg'
-// import bu8 from '../../../images/Buckets/bu8.jpg'
-// import bu9 from '../../../images/Buckets/bu9.jpg'
 import { Link } from "react-router-dom";
 import clsx from 'clsx';
-// import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-// import MoreVertIcon from '@material-ui/icons/MoreVert';
-// import Avatar from '@material-ui/core/Avatar';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -68,16 +57,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Herschel"
                 subheader="Camo Bucket"
               />
@@ -98,9 +78,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
                   className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -126,16 +104,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="New Era"
                 subheader="GORE-TEX Bucket"
               />
@@ -157,9 +126,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
                   className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -184,16 +151,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Ellesse"
                 subheader="Levan Bucket"
               />
@@ -214,9 +172,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
                   className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -250,16 +206,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Brixton"
                 subheader="Kids Bucket"
               />
@@ -281,9 +228,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
                   className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -309,16 +254,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Ellesse"
                 subheader="Lorenzo Bucket"
               />
@@ -340,9 +276,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
                   className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -367,16 +301,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="New Era"
                 subheader="Outdoors Bucket"
               />
@@ -398,9 +323,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
                   className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -433,16 +356,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Converse"
                 subheader="Patch Plaid Bucket"
               />
@@ -464,9 +378,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
                   className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -492,16 +404,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Jack Wolfskin"
                 subheader="Supplex Bucket"
               />
@@ -523,9 +426,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
                   className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -550,16 +451,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Fair"
                 subheader="White Bucket"
               />
@@ -581,9 +473,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
                   className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,

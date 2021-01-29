@@ -39,11 +39,6 @@ import Bucket7 from './component/Home/Body/Hat-types-bucket/Details-buckets/Buck
 import Bucket8 from './component/Home/Body/Hat-types-bucket/Details-buckets/Bucket8';
 import Bucket9 from './component/Home/Body/Hat-types-bucket/Details-buckets/Bucket9';
 
-// import Slider from './Home/Body/Slider/Slider'
-
-
-
-
 
 function App() {
   

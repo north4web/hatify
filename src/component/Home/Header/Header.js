@@ -23,7 +23,6 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import '../Header/CSS/Style.css';
-// import NotificationsIcon from '@material-ui/icons/Notifications';
 import InputBase from '@material-ui/core/InputBase';
 
 
@@ -181,43 +180,7 @@ export default function PrimarySearchAppBar() {
             </IconButton>
             </MenuItem>
 
-      {/* <MenuItem>
-        <IconButton color="inherit">
-          <Badge color="secondary">
-            <Link className="linksMore" to="/">Home</Link>
-          </Badge>
-        </IconButton>
-      </MenuItem>
-      <MenuItem>
-        <IconButton color="inherit">
-          <Badge color="secondary">
-            <Link className="linksMore" to="/About">About</Link>
-          </Badge>
-        </IconButton>
-      </MenuItem>
-      <MenuItem>
-        <IconButton color="inherit">
-          <Badge color="secondary">
-            <Link className="linksMore" to="/Contact">Contact</Link>
-          </Badge>
-        </IconButton>
-      </MenuItem> */}
-      {/* <MenuItem>
-        <IconButton aria-label="show 4 new mails" color="inherit">
-          <Badge badgeContent={4} color="secondary">
-            <MailIcon />
-          </Badge>
-        </IconButton>
-        <p>Messages</p>
-      </MenuItem> */}
-      {/* <MenuItem>
-        <IconButton aria-label="show 11 new notifications" color="inherit">
-          <Badge badgeContent={11} color="secondary">
-            <NotificationsIcon />
-          </Badge>
-        </IconButton>
-        <p>Notifications</p>
-      </MenuItem> */}
+      
       <MenuItem>
         <IconButton>
 
@@ -328,9 +291,6 @@ export default function PrimarySearchAppBar() {
 
           <div className={classes.grow} />
 
-          
-
-
           <div className={classes.sectionDesktop}>
           
             <IconButton color="inherit">
@@ -380,35 +340,6 @@ export default function PrimarySearchAppBar() {
             </IconButton>
 
           </div>
-
-            {/* <IconButton aria-label="show 4 new mails" color="inherit">
-          <Badge badgeContent={4} color="secondary">
-            <MailIcon />
-          </Badge>
-          </IconButton>
-
-        <IconButton aria-label="show 17 new notifications" color="inherit">
-          <Badge badgeContent={17} color="secondaryprimar">
-            <NotificationsIcon />
-          </Badge>
-        </IconButton> */}
-
-            {/* <div className={classes.search}>
-        <div className={classes.searchIcon}>
-          <SearchIcon />
-        </div>
-        <InputBase style={{fontSize: "medium"}}
-          placeholder="Search..."
-          classes={{
-            root: classes.inputRoot,
-            input: classes.inputInput,
-          }}
-          inputProps={{ 'aria-label': 'search' }}
-        />
-      </div> */}
-
-            
-          
 
           <div className={classes.sectionMobile}>
             <IconButton

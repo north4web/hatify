@@ -6,25 +6,13 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
-import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-// import b1 from '../../../images/berets/b1.jpg'
-// import b2 from '../../../images/berets/b2.jpg'
-// import b3 from '../../../images/berets/b3.jpg'
-// import b4 from '../../../images/berets/b4.jpg'
-// import b5 from '../../../images/berets/b5.jpg'
-// import b6 from '../../../images/berets/b6.jpg'
-// import b7 from '../../../images/berets/b7.jpg'
-// import b8 from '../../../images/berets/b8.jpg'
-// import b9 from '../../../images/berets/b9.jpg'
 import { Link } from "react-router-dom";
 import clsx from 'clsx';
-// import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-// import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -70,16 +58,7 @@ export default function RecipeReviewCard() {
 
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Seeberger"
                 subheader="Viscose Beret"
               />
@@ -96,18 +75,12 @@ export default function RecipeReviewCard() {
                   <Link style={{ textDecoration: 'none', color: 'black' }} to='/Beret1'>BUY</Link>
                 </Typography>
               </CardContent>
-              {/* <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
-        Viscose-mix-black-beret-seeberger
-        </Typography>
-      </CardContent> */}
+              
               <CardActions disableSpacing>
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -133,16 +106,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Seeberger"
                 subheader="Wool Beret"
               />
@@ -163,9 +127,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -191,16 +153,7 @@ export default function RecipeReviewCard() {
 
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Kangol"
                 subheader="Wool Beret"
               />
@@ -221,9 +174,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -256,16 +207,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Brixton"
                 subheader="Audrey Beret"
               />
@@ -286,9 +228,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -313,16 +253,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Barts"
                 subheader="Leconte Beret"
               />
@@ -346,9 +277,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -373,16 +302,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Seeberger"
                 subheader="Viscose Beret"
               />
@@ -406,9 +326,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -440,16 +358,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Seeberger"
                 subheader="Wool Beret"
               />
@@ -471,9 +380,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -498,16 +405,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Seeberger"
                 subheader="Wool Beret"
               />
@@ -531,9 +429,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -558,16 +454,7 @@ export default function RecipeReviewCard() {
           <div class="col-sm">
             <Card className={classes.root}>
               <CardHeader
-                // avatar={
-                //   <Avatar aria-label="recipe" className={classes.avatar}>
-                //     R
-                //   </Avatar>
-                // }
-                // action={
-                //   <IconButton aria-label="settings">
-                //     <MoreVertIcon />
-                //   </IconButton>
-                // }
+                
                 title="Kangol"
                 subheader="Wool Beret"
               />
@@ -591,9 +478,7 @@ export default function RecipeReviewCard() {
                 <IconButton aria-label="add to favorites">
                   <FavoriteIcon />
                 </IconButton>
-                {/* <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
+                
                 <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,

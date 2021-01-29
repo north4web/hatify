@@ -9,9 +9,7 @@ function Body() {
 
             <HatTypesBeret />
             <HatTypesBucket />
-
             <HatTypesBowler />
-
 
         </div>
     )

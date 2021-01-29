@@ -13,10 +13,7 @@ import {
   Link
 }
   from '@material-ui/core';
-// import Card from '@material-ui/core/Card';
-// import CardActions from '@material-ui/core/CardActions';
-// import CardContent from '@material-ui/core/CardContent';
-// import Button from '@material-ui/core/Button';
+
 
 const useStyles = makeStyles({
   root: {
@@ -37,7 +34,7 @@ const useStyles = makeStyles({
 
 function Beret1() {
   const classes = useStyles();
-  // const bull = <span className={classes.bullet}>•</span>;
+  
   return (
     <div>
 

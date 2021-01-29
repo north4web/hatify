@@ -1,7 +1,6 @@
 import React from 'react'
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-// import b1 from '../../../../../images/berets/b1.jpg'
 
 
 const PREFIX_URL = 'https://az1.hatstoremedia.com/hatstore/images/';

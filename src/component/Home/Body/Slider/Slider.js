@@ -1,8 +1,4 @@
 import React from 'react';
-// import S1 from '../../../images/hats-slider1.jpg'
-// import S2 from '../../../images/hats-slider2.jpg'
-// import S3 from '../../../images/hats-slider3.jpg'
-// import S4 from '../../../images/hats-slider4.jpg'
 
 
 function Slider() {

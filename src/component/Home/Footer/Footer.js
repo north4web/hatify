@@ -12,16 +12,6 @@ function Footer() {
       <Divider style={{ backgroundColor: "black", height: "2px" }}></Divider>
 
 
-      {/* <ul class="social-media-icons">
-                <li><a class="instagram" href="https://www.instagram.com/">Instagram</a></li>
-                
-                <li><a class="facebook" href="http://www.facebook.com/">Facebook</a></li>
-                
-                <li><a class="twitter" href="https://twitter.com/">Twitter</a></li>
-                
-                <li><a class="pinterest" href="https://www.pinterest.com/">Pinterest</a></li>
-                
-                <li><a class="youTube" href="https://www.youtube.com/">YouTube</a></li></ul> */}
 
 
       <div class="container">
