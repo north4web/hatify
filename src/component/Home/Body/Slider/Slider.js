@@ -1,8 +1,8 @@
 import React from 'react';
-import S1 from '../../../images/hats-slider1.jpg'
-import S2 from '../../../images/hats-slider2.jpg'
-import S3 from '../../../images/hats-slider3.jpg'
-import S4 from '../../../images/hats-slider4.jpg'
+// import S1 from '../../../images/hats-slider1.jpg'
+// import S2 from '../../../images/hats-slider2.jpg'
+// import S3 from '../../../images/hats-slider3.jpg'
+// import S4 from '../../../images/hats-slider4.jpg'
 
 
 function Slider() {
@@ -11,16 +11,16 @@ function Slider() {
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item">
-      <img src= {S2} class="d-block w-100 h-200" alt="..."/>
+      <img src='../images/hats-slider2.jpg' class="d-block w-100 h-200" alt="..."/>
     </div>
     <div class="carousel-item active">
-      <img src={S1} class="d-block w-100 h-200" alt="..."/>
+      <img src='../images/hats-slider1.jpg' class="d-block w-100 h-200" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={S3} class="d-block w-100 h-200" alt="..."/>
+      <img src='../images/hats-slider3.jpg' class="d-block w-100 h-200" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={S4} class="d-block w-100 h-200" alt="..."/>
+      <img src='../images/hats-slider4.jpg' class="d-block w-100 h-200" alt="..."/>
     </div>
     
   </div>
