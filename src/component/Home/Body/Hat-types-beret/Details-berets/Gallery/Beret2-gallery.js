@@ -18,13 +18,13 @@ class Beret2Gallery extends React.Component {
 
                     items: [
                         {
-                            original: 'https://az1.hatstoremedia.com/hatstore/images/4062845099003_3/652/522/0/wool-blend-black-beret-seeberger.jpg',
-                            thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4062845099003_3/90/90/0/wool-blend-black-beret-seeberger.jpg',
+                            original: '../images/berets/b2.jpg',
+                            thumbnail: '../images/berets/b2.jpg',
 
                         },
                         {
-                            original: 'https://az1.hatstoremedia.com/hatstore/images/4062845099003_4/652/522/0/wool-blend-black-beret-seeberger.jpg',
-                            thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4062845099003_4/90/90/0/wool-blend-black-beret-seeberger.jpg',
+                            original: '../images/berets/b2a.jpg',
+                            thumbnail: '../images/berets/b2a.jpg',
                         },
                     ]
 

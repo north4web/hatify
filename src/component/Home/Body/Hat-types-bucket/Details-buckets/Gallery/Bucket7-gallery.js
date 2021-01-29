@@ -19,12 +19,12 @@ class Bucket7Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/888757859030_1/652/522/0/reversible-bucket-patch-plaid-rose-maroon-bucket-converse.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/888757859030_1/652/522/0/reversible-bucket-patch-plaid-rose-maroon-bucket-converse.jpg',
+              original: '../images/buckets/bu7.jpg',
+              thumbnail: '../images/buckets/bu7.jpg',
             },
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/888757859030_5/652/522/0/reversible-bucket-patch-plaid-rose-maroon-bucket-converse.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/888757859030_5/652/522/0/reversible-bucket-patch-plaid-rose-maroon-bucket-converse.jpg',
+              original: '../images/buckets/bu7a.jpg',
+              thumbnail: '../images/buckets/bu7a.jpg',
             },
           ]
 

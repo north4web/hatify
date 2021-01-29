@@ -19,12 +19,12 @@ class Bucket4Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/888588240403_1/652/522/0/kids-lil-hardy-red-navy-bucket-brixton.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/888588240403_1/652/522/0/kids-lil-hardy-red-navy-bucket-brixton.jpg',
+              original: '../images/buckets/bu4.jpg',
+              thumbnail: '../images/buckets/bu4.jpg',
             },
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/888588240403_4/652/522/0/kids-lil-hardy-red-navy-bucket-brixton.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/888588240403_4/652/522/0/kids-lil-hardy-red-navy-bucket-brixton.jpg',
+              original: '../images/buckets/bu4a.jpg',
+              thumbnail: '../images/buckets/bu4a.jpg',
             },
           ]
 

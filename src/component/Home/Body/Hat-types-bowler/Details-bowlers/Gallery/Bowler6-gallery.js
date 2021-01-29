@@ -17,14 +17,14 @@ class Bowler6Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/5055303732108_1/652/522/0/english-black-bowler-jaxon-james.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/5055303732108_1/652/522/0/english-black-bowler-jaxon-james.jpg',
+                original: '../images/bowlers/bo6.jpg',
+                thumbnail: '../images/bowlers/bo6.jpg',
             },
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/5055303732108_4/652/522/0/english-black-bowler-jaxon-james.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/5055303732108_4/652/522/0/english-black-bowler-jaxon-james.jpg',
+                original: '../images/bowlers/bo6a.jpg',
+                thumbnail: '../images/bowlers/bo6a.jpg',
             },
-          ]
+        ]
 
         })} />
     </div>);

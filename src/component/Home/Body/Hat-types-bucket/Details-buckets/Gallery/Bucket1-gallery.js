@@ -19,12 +19,12 @@ class Bucket1Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/828432257102_1/652/522/0/cooperman-woodland-camo-bucket-herschel.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/828432257102_1/652/522/0/cooperman-woodland-camo-bucket-herschel.jpg',
+              original: '../images/buckets/bu1.jpg',
+              thumbnail: '../images/buckets/bu1.jpg',
             },
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/828432257102_4/652/522/0/cooperman-woodland-camo-bucket-herschel.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/828432257102_4/652/522/0/cooperman-woodland-camo-bucket-herschel.jpg',
+              original: '../images/buckets/bu1a.jpg',
+              thumbnail: '../images/buckets/bu1a.jpg',
             },
           ]
 

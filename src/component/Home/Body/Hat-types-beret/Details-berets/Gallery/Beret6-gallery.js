@@ -17,12 +17,12 @@ class Beret6Gallery extends React.Component {
 
                     items: [
                         {
-                            original: 'https://az1.hatstoremedia.com/hatstore/images/4062845093988_2/652/522/0/viscose-mix-nutria-beret-seeberger.jpg',
-                            thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4062845093988_2/90/90/0/viscose-mix-nutria-beret-seeberger.jpg',
+                            original: '../images/berets/b6.jpg',
+                            thumbnail: '../images/berets/b6.jpg',
                         },
                         {
-                            original: 'https://az1.hatstoremedia.com/hatstore/images/4062845093988_4/652/522/0/viscose-mix-nutria-beret-seeberger.jpg',
-                            thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4062845093988_4/90/90/0/viscose-mix-nutria-beret-seeberger.jpg',
+                            original: '../images/berets/b6a.jpg',
+                            thumbnail: '../images/berets/b6a.jpg',
                         },
                     ]
 

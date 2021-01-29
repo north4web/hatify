@@ -19,12 +19,12 @@ class Bucket8Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/4052936442634_1/652/522/0/supplex-sun-hat-siltstone-bucket-jack-wolfskin.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4052936442634_1/652/522/0/supplex-sun-hat-siltstone-bucket-jack-wolfskin.jpg',
+              original: '../images/buckets/bu8.jpg',
+              thumbnail: '../images/buckets/bu8.jpg',
             },
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/4052936442634_4/652/522/0/supplex-sun-hat-siltstone-bucket-jack-wolfskin.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4052936442634_4/652/522/0/supplex-sun-hat-siltstone-bucket-jack-wolfskin.jpg',
+              original: '../images/buckets/bu8a.jpg',
+              thumbnail: '../images/buckets/bu8a.jpg',
             },
           ]
 

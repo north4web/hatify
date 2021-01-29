@@ -18,14 +18,14 @@ class Bowler4Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/hs2013529-2_1/652/522/0/connor-wolga-bordeaux-bowler-mayser.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/hs2013529-2_1/652/522/0/connor-wolga-bordeaux-bowler-mayser.jpg',
+                original: '../images/bowlers/bo4.jpg',
+                thumbnail: '../images/bowlers/bo4.jpg',
             },
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/hs2013529-2_4/652/522/0/connor-wolga-bordeaux-bowler-mayser.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/hs2013529-2_4/652/522/0/connor-wolga-bordeaux-bowler-mayser.jpg',
+                original: '../images/bowlers/bo4a.jpg',
+                thumbnail: '../images/bowlers/bo4a.jpg',
             },
-          ]
+        ]
 
         })} />
     </div>);

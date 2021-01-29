@@ -17,12 +17,12 @@ class Beret4Gallery extends React.Component {
 
                     items: [
                         {
-                            original: 'https://az1.hatstoremedia.com/hatstore/images/888588505915_2/652/522/0/audrey-amber-beret-brixton.jpg',
-                            thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/888588505915_2/90/90/0/audrey-amber-beret-brixton.jpg',
+                            original: '../images/berets/b4.jpg',
+                            thumbnail: '../images/berets/b4.jpg',
                         },
                         {
-                            original: 'https://az1.hatstoremedia.com/hatstore/images/888588505915_4/652/522/0/audrey-amber-beret-brixton.jpg',
-                            thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/888588505915_4/90/90/0/audrey-amber-beret-brixton.jpg',
+                            original: '../images/berets/b4a.jpg',
+                            thumbnail: '../images/berets/b4a.jpg',
                         },
                     ]
 

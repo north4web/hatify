@@ -19,15 +19,14 @@ class Bowler2Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/hs2013531-2_1/652/522/0/connor-wolga-stone-bowler-mayser.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/hs2013531-2_1/652/522/0/connor-wolga-stone-bowler-mayser.jpg',
-
+                original: '../images/bowlers/bo2.jpg',
+                thumbnail: '../images/bowlers/bo2.jpg',
             },
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/hs2013531-2_4/652/522/0/connor-wolga-stone-bowler-mayser.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/hs2013531-2_4/652/522/0/connor-wolga-stone-bowler-mayser.jpg',
+                original: '../images/bowlers/bo2a.jpg',
+                thumbnail: '../images/bowlers/bo2a.jpg',
             },
-          ]
+        ]
 
         })} />
         </div>);

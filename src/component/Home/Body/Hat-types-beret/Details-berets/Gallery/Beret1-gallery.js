@@ -1,6 +1,10 @@
 import React from 'react'
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+// import b1 from '../../../../../images/berets/b1.jpg'
+
+
+const PREFIX_URL = 'https://az1.hatstoremedia.com/hatstore/images/';
 
 class Beret1Gallery extends React.Component {
   render() {
@@ -17,12 +21,12 @@ class Beret1Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/4062845093940_2/652/522/0/viscose-mix-black-beret-seeberger.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4062845093940_2/90/90/0/viscose-mix-black-beret-seeberger.jpg',
+              original: '../images/berets/b1.jpg',
+              thumbnail: '../images/berets/b1.jpg',
             },
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/4062845093940_5/652/522/0/viscose-mix-black-beret-seeberger.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/4062845093940_5/90/90/0/viscose-mix-black-beret-seeberger.jpg',
+              original: '../images/berets/b1a.jpg',
+              thumbnail: '../images/berets/b1a.jpg',
             },
           ]
 

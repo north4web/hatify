@@ -19,12 +19,12 @@ class Bucket5Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/5057677585236_1/652/522/0/lorenzo-white-bucket-ellesse.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/5057677585236_1/652/522/0/lorenzo-white-bucket-ellesse.jpg',
+              original: '../images/buckets/bu5.jpg',
+              thumbnail: '../images/buckets/bu5.jpg',
             },
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/5057677585236_4/652/522/0/lorenzo-white-bucket-ellesse.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/5057677585236_4/652/522/0/lorenzo-white-bucket-ellesse.jpg.jpg',
+              original: '../images/buckets/bu5a.jpg',
+              thumbnail: '../images/buckets/bu5a.jpg',
             },
           ]
 

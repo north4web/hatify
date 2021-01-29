@@ -74,7 +74,7 @@ export default function RecipeReviewCard() {
               />
               <CardMedia
                 className={classes.media}
-                image="https://az2.hatstoremedia.com/hatstore/images/4063633006593_1/652/522/0/bogart-open-crown-woolfelt-beige-bowler-stetson.jpg"
+                image='../images/bowlers/bo1.jpg'
                 title="Bogart Open Crown Woolfelt Beige Bowler - Stetson"
               />
               <CardContent>
@@ -131,7 +131,7 @@ export default function RecipeReviewCard() {
               />
               <CardMedia
                 className={classes.media}
-                image="https://az2.hatstoremedia.com/hatstore/images/hs2013531-2_1/652/522/0/connor-wolga-stone-bowler-mayser.jpg"
+                image='../images/bowlers/bo2.jpg'
                 title="Connor Wolga Stone Bowler - Mayser"
               />
               <CardContent>
@@ -188,7 +188,7 @@ export default function RecipeReviewCard() {
               />
               <CardMedia
                 className={classes.media}
-                image="https://az1.hatstoremedia.com/hatstore/images/4063633032042_1/652/522/0/sonstige-bogart-open-crown-woolfelt-black-bowler-stetson.jpg"
+                image='../images/bowlers/bo3.jpg'
                 title="Sonstige Bogart Open Crown Woolfelt Black Bowler - Stetson"
               />
               <CardContent>
@@ -252,7 +252,7 @@ export default function RecipeReviewCard() {
               />
               <CardMedia
                 className={classes.media}
-                image="https://az1.hatstoremedia.com/hatstore/images/hs2013529-2_1/261/209/0/connor-wolga-bordeaux-bowler-mayser.jpg"
+                image='../images/bowlers/bo4.jpg'
                 title="Connor Wolga Bordeaux Bowler - Mayser"
               />
               <CardContent>
@@ -309,7 +309,7 @@ export default function RecipeReviewCard() {
               />
               <CardMedia
                 className={classes.media}
-                image="https://az2.hatstoremedia.com/hatstore/images/hs2013530-2_1/261/209/0/connor-wolga-cognac-brown-bowler-mayser.jpg"
+                image='../images/bowlers/bo5.jpg'
                 title="Connor Wolga Cognac Brown Bowler - Mayser"
               />
               <CardContent>
@@ -366,7 +366,7 @@ export default function RecipeReviewCard() {
               />
               <CardMedia
                 className={classes.media}
-                image="https://az1.hatstoremedia.com/hatstore/images/5055303732108_1/652/522/0/english-black-bowler-jaxon-james.jpg"
+                image='../images/bowlers/bo6.jpg'
                 title="English Black Bowler - Jaxon & James"
               />
               <CardContent>

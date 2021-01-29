@@ -19,14 +19,14 @@ class Bowler1Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/4063633006593_1/652/522/0/bogart-open-crown-woolfelt-beige-bowler-stetson.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/4063633006593_1/652/522/0/bogart-open-crown-woolfelt-beige-bowler-stetson.jpg',
+                original: '../images/bowlers/bo1.jpg',
+                thumbnail: '../images/bowlers/bo1.jpg',
             },
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/4063633006593_4/652/522/0/bogart-open-crown-woolfelt-beige-bowler-stetson.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4063633006593_4/652/522/0/bogart-open-crown-woolfelt-beige-bowler-stetson.jpg',
+                original: '../images/bowlers/bo1a.jpg',
+                thumbnail: '../images/bowlers/bo1a.jpg',
             },
-          ]
+        ]
 
         })} />
         </div>);

@@ -17,12 +17,12 @@ class Beret8Gallery extends React.Component {
 
                     items: [
                         {
-                            original: 'https://az1.hatstoremedia.com/hatstore/images/4062845099041_1/652/522/0/wool-blend-marine-blue-beret-seeberger.jpg',
-                            thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4062845099041_1/90/90/0/wool-blend-marine-blue-beret-seeberger.jpg',
+                            original: '../images/berets/b8.jpg',
+                            thumbnail: '../images/berets/b8.jpg',
                         },
                         {
-                            original: 'https://az1.hatstoremedia.com/hatstore/images/4062845099041_4/652/522/0/wool-blend-marine-blue-beret-seeberger.jpg',
-                            thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4062845099041_4/90/90/0/wool-blend-marine-blue-beret-seeberger.jpg',
+                            original: '../images/berets/b8a.jpg',
+                            thumbnail: '../images/berets/b8a.jpg',
                         },
                     ]
 

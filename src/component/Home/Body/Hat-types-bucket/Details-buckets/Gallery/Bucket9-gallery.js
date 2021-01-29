@@ -19,12 +19,12 @@ class Bucket9Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/ob1001934_1/652/522/0/white-logo-black-bucket-fair-c.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/ob1001934_1/652/522/0/white-logo-black-bucket-fair-c.jpg',
+              original: '../images/buckets/bu9.jpg',
+              thumbnail: '../images/buckets/bu9.jpg',
             },
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/ob1001934_4/652/522/0/white-logo-black-bucket-fair-i.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/ob1001934_4/652/522/0/white-logo-black-bucket-fair-i.jpg',
+              original: '../images/buckets/bu9a.jpg',
+              thumbnail: '../images/buckets/bu9a.jpg',
             },
           ]
 

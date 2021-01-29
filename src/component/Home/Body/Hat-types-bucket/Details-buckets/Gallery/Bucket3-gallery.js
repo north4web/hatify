@@ -19,12 +19,12 @@ class Bucket3Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/5059335248132_1/652/522/0/levan-navy-blue-bucket-ellesse.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/5059335248132_1/652/522/0/levan-navy-blue-bucket-ellesse.jpg',
+              original: '../images/buckets/bu3.jpg',
+              thumbnail: '../images/buckets/bu3.jpg',
             },
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/5059335248132_4/652/522/0/levan-navy-blue-bucket-ellesse.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/5059335248132_4/652/522/0/levan-navy-blue-bucket-ellesse.jpg',
+              original: '../images/buckets/bu3a.jpg',
+              thumbnail: '../images/buckets/bu3a.jpg',
             },
           ]
 

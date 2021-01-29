@@ -19,13 +19,12 @@ class Bucket2Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/193650915784_1/652/522/0/gore-tex-black-white-bucket-new-era.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/193650915784_1/652/522/0/gore-tex-black-white-bucket-new-era.jpg',
-
+              original: '../images/buckets/bu2.jpg',
+              thumbnail: '../images/buckets/bu2.jpg',
             },
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/193650915784_4/652/522/0/gore-tex-black-white-bucket-new-era.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/193650915784_4/652/522/0/gore-tex-black-white-bucket-new-era.jpg',
+              original: '../images/buckets/bu2a.jpg',
+              thumbnail: '../images/buckets/bu2a.jpg',
             },
           ]
 

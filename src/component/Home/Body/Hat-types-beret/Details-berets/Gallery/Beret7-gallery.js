@@ -17,12 +17,12 @@ class Beret7Gallery extends React.Component {
 
                     items: [
                         {
-                            original: 'https://az1.hatstoremedia.com/hatstore/images/4062845099010_1/652/522/0/wool-blend-heather-grey-beret-seeberger.jpg',
-                            thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4062845099010_1/90/90/0/wool-blend-heather-grey-beret-seeberger.jpg',
+                            original: '../images/berets/b7.jpg',
+                            thumbnail: '../images/berets/b7.jpg',
                         },
                         {
-                            original: 'https://az1.hatstoremedia.com/hatstore/images/4062845099010_4/652/522/0/wool-blend-heather-grey-beret-seeberger.jpg',
-                            thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/4062845099010_4/90/90/0/wool-blend-heather-grey-beret-seeberger.jpg',
+                            original: '../images/berets/b7a.jpg',
+                            thumbnail: '../images/berets/b7a.jpg',
                         },
                     ]
 

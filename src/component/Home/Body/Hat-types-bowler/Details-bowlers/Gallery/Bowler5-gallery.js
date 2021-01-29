@@ -17,14 +17,14 @@ class Bowler5Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/hs2013530-2_1/652/522/0/connor-wolga-cognac-brown-bowler-mayser.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/hs2013530-2_1/652/522/0/connor-wolga-cognac-brown-bowler-mayser.jpg',
+                original: '../images/bowlers/bo5.jpg',
+                thumbnail: '../images/bowlers/bo5.jpg',
             },
             {
-              original: 'https://az1.hatstoremedia.com/hatstore/images/hs2013530-2_4/652/522/0/connor-wolga-cognac-brown-bowler-mayser.jpg',
-              thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/hs2013530-2_4/652/522/0/connor-wolga-cognac-brown-bowler-mayser.jpg',
+                original: '../images/bowlers/bo5a.jpg',
+                thumbnail: '../images/bowlers/bo5a.jpg',
             },
-          ]
+        ]
 
         })} />
         </div>);

@@ -19,12 +19,12 @@ class Bucket6Gallery extends React.Component {
 
           items: [
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/194789390312_1/652/522/0/none-outdoors-bucket-explorer-olive-bucket-new-era.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/194789390312_1/652/522/0/none-outdoors-bucket-explorer-olive-bucket-new-era.jpg',
+              original: '../images/buckets/bu6.jpg',
+              thumbnail: '../images/buckets/bu6.jpg',
             },
             {
-              original: 'https://az2.hatstoremedia.com/hatstore/images/194789390312_4/652/522/0/none-outdoors-bucket-explorer-olive-bucket-new-era.jpg',
-              thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/194789390312_4/652/522/0/none-outdoors-bucket-explorer-olive-bucket-new-era.jpg',
+              original: '../images/buckets/bu6a.jpg',
+              thumbnail: '../images/buckets/bu6a.jpg',
             },
           ]
 

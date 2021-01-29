@@ -11,15 +11,15 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import b1 from '../../../images/berets/b1.jpg'
-import b2 from '../../../images/berets/b2.jpg'
-import b3 from '../../../images/berets/b3.jpg'
-import b4 from '../../../images/berets/b4.jpg'
-import b5 from '../../../images/berets/b5.jpg'
-import b6 from '../../../images/berets/b6.jpg'
-import b7 from '../../../images/berets/b7.jpg'
-import b8 from '../../../images/berets/b8.jpg'
-import b9 from '../../../images/berets/b9.jpg'
+// import b1 from '../../../images/berets/b1.jpg'
+// import b2 from '../../../images/berets/b2.jpg'
+// import b3 from '../../../images/berets/b3.jpg'
+// import b4 from '../../../images/berets/b4.jpg'
+// import b5 from '../../../images/berets/b5.jpg'
+// import b6 from '../../../images/berets/b6.jpg'
+// import b7 from '../../../images/berets/b7.jpg'
+// import b8 from '../../../images/berets/b8.jpg'
+// import b9 from '../../../images/berets/b9.jpg'
 import { Link } from "react-router-dom";
 import clsx from 'clsx';
 // import ShareIcon from '@material-ui/icons/Share';
@@ -85,7 +85,7 @@ export default function RecipeReviewCard() {
               />
               <CardMedia
                 className={classes.media}
-                image={b1}
+                image='../images/berets/b1.jpg'
                 title="viscose-mix-black-beret-seeberger"
               />
               <CardContent>
@@ -148,7 +148,7 @@ export default function RecipeReviewCard() {
               />
               <CardMedia
                 className={classes.media}
-                image={b2}
+                image='../images/berets/b2.jpg'
                 title="wool-blend-black-beret-seeberger"
               />
               <CardContent>
@@ -206,7 +206,7 @@ export default function RecipeReviewCard() {
               />
               <CardMedia
                 className={classes.media}
-                image={b3}
+                image='../images/berets/b3.jpg'
                 title="wool-jax-dk-lichen-green-beret-kangol"
               />
               <CardContent>
@@ -271,7 +271,7 @@ export default function RecipeReviewCard() {
               />
               <CardMedia
                 className={classes.media}
-                image={b4}
+                image='../images/berets/b4.jpg'
                 title="audrey-amber-beret-brixton"
               />
               <CardContent>
@@ -331,7 +331,7 @@ export default function RecipeReviewCard() {
               <CardMedia
 
                 className={classes.media}
-                image={b5}
+                image='../images/berets/b5.jpg'
                 title="leconte-heather-grey-beret-barts"
               />
               <CardContent>
@@ -391,7 +391,7 @@ export default function RecipeReviewCard() {
               <CardMedia
 
                 className={classes.media}
-                image={b6}
+                image='../images/berets/b6.jpg'
                 title="viscose-mix-nutria-beret-seeberger"
               />
               <CardContent>
@@ -456,7 +456,7 @@ export default function RecipeReviewCard() {
               <CardMedia
 
                 className={classes.media}
-                image={b7}
+                image='../images/berets/b7.jpg'
                 title="wool-blend-heather-grey-beret-seeberger"
               />
               <CardContent>
@@ -516,7 +516,7 @@ export default function RecipeReviewCard() {
               <CardMedia
 
                 className={classes.media}
-                image={b8}
+                image='../images/berets/b8.jpg'
                 title="wool-blend-marine-blue-beret-seeberger"
               />
               <CardContent>
@@ -576,7 +576,7 @@ export default function RecipeReviewCard() {
               <CardMedia
 
                 className={classes.media}
-                image={b9}
+                image='../images/berets/b9.jpg'
                 title="wool-jax-red-velvet-beret-kangol"
               />
               <CardContent>

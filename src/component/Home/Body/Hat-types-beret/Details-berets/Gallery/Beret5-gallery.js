@@ -17,12 +17,12 @@ class Beret5Gallery extends React.Component {
 
                     items: [
                         {
-                            original: 'https://az2.hatstoremedia.com/hatstore/images/8717457704819_2/652/522/0/leconte-heather-grey-beret-barts.jpg',
-                            thumbnail: 'https://az2.hatstoremedia.com/hatstore/images/8717457704819_2/90/90/0/leconte-heather-grey-beret-barts.jpg',
+                            original: '../images/berets/b5.jpg',
+                            thumbnail: '../images/berets/b5.jpg',
                         },
                         {
-                            original: 'https://az1.hatstoremedia.com/hatstore/images/8717457704819_4/652/522/0/leconte-heather-grey-beret-barts.jpg',
-                            thumbnail: 'https://az1.hatstoremedia.com/hatstore/images/8717457704819_4/90/90/0/leconte-heather-grey-beret-barts.jpg',
+                            original: '../images/berets/b5a.jpg',
+                            thumbnail: '../images/berets/b5a.jpg',
                         },
                     ]
 
