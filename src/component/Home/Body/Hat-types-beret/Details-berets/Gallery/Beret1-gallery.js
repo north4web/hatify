@@ -3,8 +3,6 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 
-const PREFIX_URL = 'https://az1.hatstoremedia.com/hatstore/images/';
-
 class Beret1Gallery extends React.Component {
   render() {
     return (<div >

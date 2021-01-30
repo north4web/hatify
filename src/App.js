@@ -2,7 +2,7 @@ import React from 'react'
 import Home from './component/Home/Home'
 import About from './component/About/About'
 import Contact from './component/Contact/Contact'
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import SignIn from './component/Home/Header/Signin/Signin'
 import Dashboard from './component/Home/Header/Dashboard/Dashboard'
 import Berets from './component/Home/Body/Hat-types-beret/berets'

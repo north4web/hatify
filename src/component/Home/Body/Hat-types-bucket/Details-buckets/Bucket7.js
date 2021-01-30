@@ -72,7 +72,7 @@ function Bucket7() {
               <span className={classes.submitButtonText}>Add to Cart</span></Fab>
           </div><br />
         </div>
-        <img style={{ height: '300px' }} src="https://thumbs.dreamstime.com/b/new-year-sale-shopping-banner-background-flat-design-snowflakes-gold-glittering-frame-text-shadow-pattern-81995950.jpg" />
+        <img style={{ height: '300px' }} src="https://thumbs.dreamstime.com/b/new-year-sale-shopping-banner-background-flat-design-snowflakes-gold-glittering-frame-text-shadow-pattern-81995950.jpg" alt="sales"/>
       </div>
     </div>
   )
