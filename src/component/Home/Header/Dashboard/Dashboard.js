@@ -24,18 +24,18 @@ import Deposits from './Deposits';
 import Orders from './Orders';
 
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" to="/https://material-ui.com/">
-        Hatify
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+// function Copyright() {
+//   return (
+//     <Typography variant="body2" color="textSecondary" align="center">
+//       {'Copyright © '}
+//       <Link color="inherit" to="/https://material-ui.com/">
+//         Hatify
+//       </Link>{' '}
+//       {new Date().getFullYear()}
+//       {'.'}
+//     </Typography>
+//   );
+// }
 
 const drawerWidth = 240;
 

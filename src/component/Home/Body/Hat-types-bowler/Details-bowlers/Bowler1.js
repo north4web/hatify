@@ -3,16 +3,7 @@ import Bowler1Gallery from './Gallery/Bowler1-gallery'
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import StarRatings from 'react-star-ratings';
-import {
-  withStyles,
-  Radio,
-  Checkbox,
-  Fab,
-  CircularProgress,
-  Hidden,
-  Link
-}
-  from '@material-ui/core';
+import { Fab } from '@material-ui/core';
 
 const useStyles = makeStyles({
   root: {
