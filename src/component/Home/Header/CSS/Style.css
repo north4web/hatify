@@ -10,17 +10,11 @@
     font-size: 16px;
 }
 
-.links:hover {
+.links:hover, .linksLeft:hover, .linksMore:hover {
     color: gray;
 }
 
-.linksLeft:hover {
-    color: gray;
-}
 
-.linksMore:hover {
-    color: gray;
-}
 
 .menuIcon {
     color: white; 
