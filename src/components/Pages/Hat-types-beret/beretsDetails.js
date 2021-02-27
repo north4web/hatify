@@ -69,11 +69,9 @@ function BeretsDetails(props) {
 
                             })} />
                     </div>)
-
-
-
                 </div>
-                <div class="col-sm">
+
+                <div class="col-sm" style={{ marginLeft: "20px", marginRight: "50px" }}>
                     <Typography variant="h4" component="h4">
                         {thisBeret.name}
                     </Typography><br />

@@ -38,7 +38,7 @@ function BucketsDetails(props) {
 
     return (
         <div>
-            
+
             <div class="row">
                 <div class="col-sm">
 
@@ -68,7 +68,7 @@ function BucketsDetails(props) {
                     </div>)
                 </div>
 
-                <div class="col-sm">
+                <div class="col-sm" style={{ marginLeft: "20px", marginRight: "50px" }}>
                     <Typography variant="h4" component="h4">
                         {thisBeret.name}
                     </Typography><br />
