@@ -36,7 +36,7 @@ function Footer() {
       </div>
 
 
-      <div style={{ backgroundColor: "black", color: "white" }}>
+      <div style={{ backgroundColor: "rgba(0, 0, 0, 0.85", color: "white" }}>
 
 
         <br></br>

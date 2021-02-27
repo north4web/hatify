@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  background-color: rgb(213, 222, 236);
+  background-color: rgba(0, 0, 0, 0.85);
   justify-content: center;
   }
 
