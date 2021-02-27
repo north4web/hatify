@@ -1,0 +1,13 @@
+.flex-container {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: rgb(213, 222, 236);
+  justify-content: center;
+  }
+
+.card {
+    min-width: 330px;
+    margin: 10px
+}
