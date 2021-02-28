@@ -9,8 +9,8 @@ function Home() {
         <div>
             <Slider />
             <HatTypesBeret />
-            <HatTypesBowler />
             <HatTypesBucket />
+            <HatTypesBowler />
         </div>
     )
 }

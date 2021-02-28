@@ -157,30 +157,29 @@ export default function PrimarySearchAppBar() {
     >
       {/* links under "more" icon */}
       <MenuItem>
-      <IconButton color="inherit">
-              <Badge color="secondary">
-                <Link className="linksMore" to="/Berets">Berets</Link>
-              </Badge>
-            </IconButton>
-            </MenuItem>
-
-            <MenuItem>
-            <IconButton>
-              <Badge color="secondary">
-                <Link className="linksMore" to="/Bowlers">Bowlers</Link>
-              </Badge>
-            </IconButton>
-            </MenuItem>
-
-            <MenuItem>
-            <IconButton>
-              <Badge color="secondary">
-                <Link className="linksMore" to="/Buckets">Buckets</Link>
-              </Badge>
-            </IconButton>
-            </MenuItem>
-
+        <IconButton color="inherit">
+          <Badge color="secondary">
+            <Link className="linksMore" to="/Berets">Berets</Link>
+          </Badge>
+        </IconButton>
+      </MenuItem>
       
+      <MenuItem>
+        <IconButton>
+          <Badge color="secondary">
+            <Link className="linksMore" to="/Buckets">Buckets</Link>
+          </Badge>
+        </IconButton>
+      </MenuItem>
+
+      <MenuItem>
+        <IconButton>
+          <Badge color="secondary">
+            <Link className="linksMore" to="/Bowlers">Bowlers</Link>
+          </Badge>
+        </IconButton>
+      </MenuItem>
+
       <MenuItem>
         <IconButton>
 
@@ -219,18 +218,18 @@ export default function PrimarySearchAppBar() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-<MenuItem>
+      <MenuItem>
         <IconButton color="inherit">
-        
-            <Link className="linksLeft" to="/">Home</Link>
-          
+
+          <Link className="linksLeft" to="/">Home</Link>
+
         </IconButton>
       </MenuItem>
       <MenuItem>
         <IconButton color="inherit">
-         
-            <Link className="linksLeft" to="/About">About</Link>
-          
+
+          <Link className="linksLeft" to="/About">About</Link>
+
         </IconButton>
       </MenuItem>
       <MenuItem>
@@ -239,7 +238,7 @@ export default function PrimarySearchAppBar() {
             <Link className="linksLeft" to="/Contact">Contact</Link>
           </Badge>
         </IconButton>
-      </MenuItem> 
+      </MenuItem>
       <Divider />
       <List>
         {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
@@ -292,7 +291,7 @@ export default function PrimarySearchAppBar() {
           <div className={classes.grow} />
 
           <div className={classes.sectionDesktop}>
-          
+
             <IconButton color="inherit">
 
               <Badge color="secondary">
@@ -303,13 +302,13 @@ export default function PrimarySearchAppBar() {
 
             <IconButton>
               <Badge color="secondary">
-                <Link className="links" to="/Bowlers">Bowlers</Link>
+                <Link className="links" to="/Buckets">Buckets</Link>
               </Badge>
             </IconButton>
 
             <IconButton>
               <Badge color="secondary">
-                <Link className="links" to="/Buckets">Buckets</Link>
+                <Link className="links" to="/Bowlers">Bowlers</Link>
               </Badge>
             </IconButton>
 
