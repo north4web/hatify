@@ -21,7 +21,8 @@ export default [
         "subheader": "Wool Beret",
         "description": "Wool Jax Dk Lichen Green Beret",
         "price": 100
-    }, {
+    },
+    {
         "_id": "4",
         "title": "Brixton",
         "subheader": "Audrey Beret",
@@ -61,6 +62,26 @@ export default [
         "subheader": "Wool Beret",
         "description": "Wool Jax Red Velvet Beret",
         "price": 100
-    }
-
+    },
+    {
+        "_id": "10",
+        "title": "Kangol",
+        "subheader": "Azalea Beret",
+        "description": " Bamboo Jax Beret Azalea Beret",
+        "price": 100,
+    },
+    {
+        "_id": "11",
+        "title": "Seeberger",
+        "subheader": "Red Beret",
+        "description": "Viscose-Mix Burgundy Red Beret",
+        "price": 100
+    },
+    {
+        "_id": "12",
+        "title": "Kangol",
+        "subheader": "Black Beret",
+        "description": "Monty Black Beret",
+        "price": 100
+    } 
 ]

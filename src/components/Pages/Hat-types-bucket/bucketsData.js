@@ -59,6 +59,29 @@ export default [
         "subheader": "White Bucket",
         "description": "White Logo Black Bucket",
         "price": 70
+    },
+    {
+        "_id": "10",
+        "title": "Kangol",
+        "subheader": "Black Bucket",
+        "description": "Tropic Wide Brim Stripe Casual Black Bucket",
+        "price": 70
+    },
+    {
+        "_id": "11",
+        "title": "Kangol",
+        "subheader": "WhiteBucket",
+        "description": "Tropic Ventair Snipe White Bucket",
+        "price": 70
+    },
+    {
+        "_id": "12",
+        "title": "Upfront",
+        "subheader": "Black Bucket",
+        "description": "Stranded Black Bucket",
+        "price": 30
     }
 
 ]
+
+
